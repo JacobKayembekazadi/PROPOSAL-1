@@ -1,0 +1,16 @@
+# Build settings for deployment platforms
+
+[build]
+  # Directory to publish (Netlify)
+  publish = "public"
+  # Build command
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Redirect rules for single page application behavior
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

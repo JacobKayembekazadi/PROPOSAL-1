@@ -4,9 +4,10 @@
   "description": "Digital Advertising Proposal for Modern Changes USA",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve .",
+    "start": "npx serve public",
     "dev": "npx serve . --live",
-    "build": "echo 'No build process needed - static HTML site'"
+    "build": "cp index.html public/index.html",
+    "predeploy": "npm run build"
   },
   "keywords": ["proposal", "digital-advertising", "modern-changes"],
   "author": "SLOE MEDIA",
