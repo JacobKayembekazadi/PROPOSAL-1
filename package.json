@@ -1,0 +1,17 @@
+{
+  "name": "modern-changes-proposal",
+  "version": "1.0.0",
+  "description": "Digital Advertising Proposal for Modern Changes USA",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . --live",
+    "build": "echo 'No build process needed - static HTML site'"
+  },
+  "keywords": ["proposal", "digital-advertising", "modern-changes"],
+  "author": "SLOE MEDIA",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
